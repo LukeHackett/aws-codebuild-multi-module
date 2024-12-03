@@ -4,4 +4,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - pwd
+      - ls -lsa
       - echo running from buildspec.yaml in the module-1 directory
